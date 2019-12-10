@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.3.3.2 (Linux)"/>
+	<meta name="created" content="2019-08-13T01:01:14.837309493"/>
+	<meta name="changed" content="2019-12-09T13:36:11.483162014"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin-left: 0.5in; margin-right: 0.5in; margin-top: 0.79in; margin-bottom: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr">
+<div title="header"><p style="margin-bottom: 0.2in; line-height: 100%">
+	<font face="Liberation Mono, monospace">Clueless to Coding –
+	Lesson 1 Handout	</font></p>
+</div><p align="center" style="margin-bottom: 0in; line-height: 200%">
+<font size="5" style="font-size: 20pt"><b><font size="5" style="font-size: 20pt">L</font><font size="5" style="font-size: 20pt">esson
+</font><font size="5" style="font-size: 20pt">1 </font><font size="5" style="font-size: 20pt">Handout</font><font size="5" style="font-size: 20pt">
+</font><font size="5" style="font-size: 20pt">v0.</font><font size="5" style="font-size: 20pt">1</font></b></font></p>
+<ol>
+	<li><p style="margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%; page-break-after: avoid">
+	<font face="Liberation Sans, sans-serif"><font size="4" style="font-size: 14pt">Terminology</font></font></p>
+	<ol>
+		<li><p> <b>d</b><b>ata</b><span style="font-weight: normal"> –
+		</span><span style="font-weight: normal">Has many meanings. But it
+		can be generally thought of as both a collection of details and
+		each individual detail. Such details can be numeric: like the
+		amount of money in a bank account, textual: such as the title of a
+		book, or any of many other possible details which describe
+		something.</span></p>
+		<li><p> <b>memory</b><span style="font-weight: normal"> –
+		</span><span style="font-weight: normal">Typically used to refer to
+		the Random Access Memory (RAM) that most computers possess. RAM is
+		normally volatile – that is its contents is lost when a machine
+		is turned off. It can help to know that while most veteran
+		programmers usually use the word ‘memory’ when talking about
+		the volatile sotrage some people also use it to refer to
+		non-volatile storage like hard drives and solid state drives.</span></p>
+		<li><p> <b>abstract</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">Or
+		‘Abstraction’; refers to the practice of </span><span style="font-weight: normal">hiding
+		the details of exactly how something is accomplished so that a
+		programmer only needs to concentrate on the details that are
+		directly relevant to to the program being written. In the case of
+		variables, many programming languages allow the programmer to
+		concentrate on the type of data and its lifespan without having to
+		worry about the hardware it is stored in or its location.</span></p>
+		<li><p> <b>variable</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">A
+		common mechanism that is available in many programming languages
+		which allows for storage of data for later use. The variable can be
+		thought of as a method which can ‘abstract’ the use of machine
+		storage by a program from all the messy details that would
+		otherwise need to be accounted for.</span></p>
+		<li><p> <b>label</b><span style="font-weight: normal"> –
+		</span><span style="font-weight: normal">Programmers often find
+		themselves deciding on names for the components of the software
+		they design. These names are sometimes referred to as ‘labels’.</span></p>
+		<li><p> <b>assignment statement</b> <b>/ assignment operator</b><span style="font-weight: normal">
+		– </span><span style="font-weight: normal">An assignment
+		statement is a statement within a program which assigns some data
+		or other value to a variable. The assignment operator is usually
+		the equal sine ( ‘=’ ).</span></p>
+		<li><p style="font-weight: normal"> <b>statement</b> – Any
+		discrete piece of a program which contains enough infromation to be
+		executed in and of itself. Usually statements occupy a single line
+		of a program, although this is not always the case.</p>
+		<li><p> <b>literal</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">When
+		data is contained directly within the source code of a program the
+		text which represents the actual value is called a literal. </span>
+		</p>
+		<li><p> <b>operator</b><span style="font-weight: normal"> –
+		</span><span style="font-weight: normal">Operators are used to
+		direct some kind of action. ‘+ - * / %’ are the addition,
+		subtraction, multiplication, division, and modulus operators
+		respectively. The equal sign is usually used as the ‘assignment
+		operator’.</span></p>
+		<li><p> <b>interpreter</b><span style="font-weight: normal"> –
+		</span><span style="font-weight: normal">There are several
+		different processes available to take the source code a person
+		writes and translate it into actions executed by a computer. For
+		Python this is usually done through another program called an
+		‘interpreter’. Python’s interpreter takes the scripts (which
+		are the standard form of ‘source code’ for Python) and it
+		‘interprets’ them into a virtual machine code. This virtual
+		machine code is then executed by a Python virtual machine. Some
+		other programming languages which use a virtual machine include
+		Java, C#, and Ruby.</span></p>
+		<li><p> <b>state of a variable</b><span style="font-weight: normal">
+		– </span><span style="font-weight: normal">A variable’s state
+		is usually the value it contains or points to. Some languages also
+		recognize special states for variables which are independent of the
+		dta typically contained or pointed to by them. One such state that
+		Python recognizes is ‘</span><span style="font-weight: normal">None’,
+		which means a truly empty variable as opposed to the value of zero.</span></p>
+		<li><p> <b>expression</b><span style="font-weight: normal"> –
+		</span><span style="font-weight: normal">Generally, any statement
+		which can evaluate to a value. This includes mathematical
+		</span><span style="font-weight: normal">expressions.</span></p>
+		<li><p> <b>data type</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">The
+		form of informational details. Some of the data types available in
+		Python include float, long-integer, short-integer, and string
+		types.</span></p>
+		<li><p> <b>integer</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">Any
+		whole number. It can be either positive or negative. S</span><span style="font-weight: normal">ome
+		programming languages recognize more than one type of integer,
+		usually differentiated by the amount of memory space they require.
+		Python has no hard limit as to the size of the whole number its
+		integers can represent.</span></p>
+		<li><p> <b>float</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">A
+		number which includes a ‘fractional’ or ‘less-than one’
+		portion. here 1 ½ is equivalent to 1.5 .</span></p>
+		<li><p> <b>string</b><span style="font-weight: normal"> – </span><span style="font-weight: normal">A
+		collection of letters, number, punctuation symbols and similar.
+		When thinking of a string it helps to consider them to be similar
+		to a collection of characters that are ‘strung’ together.</span></p>
+		<li><p> <b>built-in function</b><span style="font-weight: normal">
+		– </span><span style="font-weight: normal">Functions can be
+		thought of as mini-programs, or sub-programs. They can be ‘called’,
+		sent input data, and often ‘return’ some data or value. A call
+		to a function includes the name of the function followed by a pair
+		of parenthesis containing whatever data is to be sent to the
+		function.</span></p>
+		<li><p> <b>arguments</b> / <b>parameters</b><span style="font-weight: normal">
+		– </span><span style="font-weight: normal">The data and/or values
+		</span><span style="font-weight: normal">sent to a function.</span></p>
+	</ol>
+	<li><p style="margin-top: 0.17in; margin-bottom: 0.08in; line-height: 100%; page-break-after: avoid">
+	<font face="Liberation Sans, sans-serif"><font size="4" style="font-size: 14pt">Programming
+	Elements</font></font></p>
+	<ol>
+		<li><p> <span style="font-style: normal">Operators:</span></p>
+		<ol>
+			<li><p><b>=</b><span style="font-weight: normal"> - the equal sign
+			causes a value on the right to be ‘assigned’ to the variable
+			on the right.</span></p>
+			<li><p><b>+ - * /</b><span style="font-weight: normal"> % -
+			mathematical operators (note that *, /, </span><span style="font-weight: normal">and
+			% </span><span style="font-weight: normal">are multiply, divide,
+			</span><span style="font-weight: normal">and modulus </span><span style="font-weight: normal">respectively)</span></p>
+		</ol>
+		<li><p style="font-weight: normal">Python Keywords:</p>
+		<ol>
+			<p style="font-weight: normal"><i>This section intentionally left
+			blank.</i></p>
+		</ol>
+		<li><p style="font-weight: normal">Python Functions:</p>
+		<ol>
+			<li><p> <b>print(</b><i><span style="font-weight: normal">list of
+			arguments</span></i><b>)</b><span style="font-weight: normal"> -
+			built-in function that prints out whatever data is passed to it as
+			</span><span style="font-weight: normal">parameter(s).</span></p>
+		</ol>
+	</ol>
+</ol>
+</body>
+</html>
