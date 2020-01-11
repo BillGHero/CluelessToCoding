@@ -18,6 +18,8 @@
 
     5.  **nesting** <span style="font-weight: normal">– When code blocks are placed inside other code blocks, this is sometimes called ‘nesting’. This can be seen in lesson 3 when an ‘if’ structure is placed within another ‘if’ structure.</span>
 
+    6.  **constant** <span style="font-weight: normal">– In programming syntax, a ‘constant’ is a variable or other data object which is assigned a value once, and only once, and then cannot be changed. Many programming languages support the constant, but Python does not offer this support out of the box. It is a common convention in programming to name a constant using all capital letters and to seperate individula words which make up the variable name with the underscore character.</span>
+
 2.  <font face="Liberation Sans, sans-serif"><font style="font-size: 14pt" size="4">Programming Elements</font></font>
 
     1.  <span style="font-style: normal">Operators:</span>
@@ -35,6 +37,8 @@
         6.  **!=** <span style="font-weight: normal">-</span> <span style="font-weight: normal">T</span><span style="font-weight: normal">he ‘not equal to’ operator.</span>
 
         7.  **<span style="font-style: normal">:</span>**<span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">The colon is used to end a line which immediately precedes a indented code-block. The Python documentation sometimes refers to a group of lines of code as a ‘suite’.</span></span>
+
+        8.  **<span style="font-style: normal">#</span>**<span style="font-style: normal"> <span style="font-weight: normal">-</span> </span><span style="font-style: normal"><span style="font-weight: normal">The number sign, or hash-tag as some people know it as, is used to place comments within a Python script. The ‘#’ must come before the comment text, which is largely ignored by Python.</span></span>
 
     2.  Python Keywords:
 
