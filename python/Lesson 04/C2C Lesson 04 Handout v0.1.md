@@ -1,0 +1,69 @@
+<div title="header">
+
+<font face="Liberation Mono, monospace">Clueless to Coding – Lesson</font> <font face="Liberation Mono, monospace">4</font> <font face="Liberation Mono, monospace">Handout</font>
+
+</div>
+
+<font style="font-size: 20pt" size="5">**<font style="font-size: 20pt" size="5">L</font><font style="font-size: 20pt" size="5">esson</font> <font style="font-size: 20pt" size="5">4</font><font style="font-size: 20pt" size="5">Handout</font><font style="font-size: 20pt" size="5">v0.</font><font style="font-size: 20pt" size="5">1</font>**</font>
+
+1.  <font face="Liberation Sans, sans-serif"><font style="font-size: 14pt" size="4">Terminology</font></font>
+
+    1.  **loop** <span style="font-weight: normal">–</span> <span style="font-weight: normal">Any code that is intended to execute repetitively. Each pass through the loop is referred to an iteration.</span>
+
+    2.  **for loop** <span style="font-weight: normal">–</span> <span style="font-weight: normal">A type of loop that executes once for each element or item in a sequence. Some programmin language have several different types of for-loops. Python has only the one type, but allows the use of the range() function to allow fo the behavior of a loop that is base purely on some kind of counter. For loops are most often used when the number of iterations the loop will make is known immediately prior to its execution.</span>
+
+    3.  **while loop** <span style="font-weight: normal">–</span> <span style="font-weight: normal">A loop that executes as long as some expression is still true. While-loops are most often used when the number of iterations is not certain immediately prior to its execution.</span>
+
+    4.  **lists** <span style="font-weight: normal">–</span> <span style="font-weight: normal">A type of sequential data structure used heavily in programming. Most programming languages have support available for lists, but do not include them as a native data type. Python is an exeption in that it has direct support for lists as a native data type. Strangely, Python does not support the ‘array’ data type natively and you must make special provisions to use them in a Python program.</span>
+
+    5.  **format** <span style="font-weight: normal">–</span> <span style="font-weight: normal">The act of adjusting something to meet certain requirements. In particular, strings/text can be ‘formatted’ to ensure they appear in a very precise configuration. Many programming languages have formatting facilities available either as native functions or as easily accessible libraries.</span>
+
+    6.  **target-variable** <span style="font-weight: normal">–</span> <span style="font-weight: normal">The variable specified by a for-loop statement to hold the current element to be used for any particular iteration of the loop.</span>
+
+    7.  **iteration, iterating** <span style="font-weight: normal">–</span> <span style="font-weight: normal">When code execution passes repeatedly through a loop, each pass is considered an iteration. While execution is passing repeatedly through the loop, it is said to be iterating.</span>
+
+    8.  **iterable** <span style="font-weight: normal">–</span> <span style="font-weight: normal">(</span>_<span style="font-weight: normal">This topic was not discussed directly in lesson 4)</span>_<span style="font-style: normal"> <span style="font-weight: normal">A iterable is a special type of programming element that is capable of being executed multiple times to generate a sequence in a peice-by-peice fashion. Python’s range() function is an iterable.</span></span>
+
+    9.  **string-specifier** <span style="font-weight: normal">–</span> <span style="font-weight: normal">Many programming languages have formatting capabilities. They often make use of a string of text which specifies what should be done to format soemthing.</span>
+
+    10.  **mini-language** <span style="font-weight: normal">–</span> <span style="font-weight: normal">Many programming languages have advanced facilities available to the programmer. Sometimes these advanced facilities necessitate the creation of a kind of mini-lanaguge to help specify the details of what these facilities should do. A good example is the rich set of symbolgy available in Python’s format function that is used to communicate how to format text.</span>
+
+    11.  **multi-line mode** <span style="font-weight: normal">–</span> <span style="font-weight: normal">The Python interactive console can execute multi-line pieces of code. This is accomplished by starting the first line off with a statement that ends in a colon, which means that more lines must follow. Once the final line is entered, the user then hits the ENTER key on a blank line to cause execution to begin.</span>
+
+2.  <font face="Liberation Sans, sans-serif"><font style="font-size: 14pt" size="4">Programming Elements</font></font>
+
+    1.  <span style="font-style: normal">Operators:</span>
+
+        1.  **<span style="font-style: normal">:</span>**<span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">The colon is used to end a line which immediately precedes a indented code-block. The Python documentation sometimes refers to a group of lines of code as a ‘suite’.</span></span>
+
+        2.  **<span style="font-style: normal">#</span>**<span style="font-style: normal"> <span style="font-weight: normal">-</span> </span><span style="font-style: normal"><span style="font-weight: normal">The number sign, or hash-tag as some people know it, is used to place comments within a Python script. The ‘#’ must come before the comment text, which is largely ignored by Python.</span></span>
+
+        3.  _<span style="font-weight: normal">list_variable</span>_**<span style="font-style: normal">[</span>**_<span style="font-weight: normal">index</span>_**<span style="font-style: normal">]</span>**<span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">List variable make us of brackets and an index number to specify a specific element of the list.</span></span>
+
+        4.  **<span style="font-style: normal">+=</span>**<span style="font-style: normal"> <span style="font-weight: normal">- This combines a plus sign and equal sign into the assignment by addition operator. This assignment operator adds whatever is on the right-hand side to the variable on the left side and then assigns the results to the variable on the left.</span></span>
+
+        5.  <span style="font-style: normal">**-=**</span><span style="font-style: normal"> <span style="font-weight: normal">- This combines a minus sign and equal sign into the assignment by subtraction operator. This assignment operator subtracts whatever is on the right-hand side from the variable on the left side and then assigns the results to the variable on the left.</span></span>
+
+    2.  Python Keywords:
+
+        1.  <span style="font-style: normal">**f**</span><span style="font-style: normal">**or** </span>_<span style="font-weight: normal">target_variable</span>_<span style="font-style: normal"> **in**</span><span style="font-style: normal"> <span style="font-weight: normal"></span> </span>_<span style="font-weight: normal">sequence</span>_<span style="font-style: normal">**:**</span>_ <span style="font-weight: normal"></span> _<span style="font-style: normal"><span style="font-weight: normal">-</span> </span><span style="font-style: normal"><span style="font-weight: normal">The for loop statement begins a executable loop. The code will execute once for each element within</span> </span>_<span style="font-weight: normal">sequence</span>_<span style="font-style: normal"><span style="font-weight: normal">.</span> </span><span style="font-style: normal"><span style="font-weight: normal">The</span> </span>_<span style="font-weight: normal">target_variable</span>_<span style="font-style: normal"> <span style="font-weight: normal"></span> </span><span style="font-style: normal"><span style="font-weight: normal">will ge used to reference the current element during each iteration of the loop.</span></span>
+
+        2.  **<span style="font-style: normal">while</span> **_<span style="font-weight: normal">expression</span>_**<span style="font-style: normal">:</span> **<span style="font-style: normal"><span style="font-weight: normal">-</span> </span><span style="font-style: normal"><span style="font-weight: normal">The while loop statement begins the code for an executable loop. It will continue to execute for as long as the expression evaluates as ‘True’.</span></span>
+
+        3.  **<span style="font-style: normal">continue</span>**<span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">The ‘continue’ keyword cause execution to bypass the rest of a loop for the current iteration.</span></span>
+
+        4.  **<span style="font-style: normal">break</span>**<span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">The ‘break’ keyword causes execution of a loop to end and continue with the code that follows the loop. It is used to ‘break-out’ of a loop.</span></span>
+
+    3.  Python Functions:
+
+        1.  **len(**_<span style="font-weight: normal">list_variable</span>_**)** <span style="font-weight: normal">–</span> <span style="font-weight: normal">A function which will retunr the length of a data item. In the case of a list, it will return the number of elements currently contained within the list.</span>
+
+        2.  **format(**_<span style="font-weight: normal">data</span>_**,** _<span style="font-weight: normal">string_specifier</span>_**)** <span style="font-weight: normal">–</span> <span style="font-weight: normal">This function will format</span> _<span style="font-weight: normal">data</span>_ <span style="font-weight: normal"></span> <span style="font-weight: normal">in accordance with</span> _<span style="font-weight: normal">string_specifier</span>__ <span style="font-weight: normal"></span> _<span style="font-weight: normal">and return the formatted string.</span>
+
+        3.  <span style="font-style: normal">**range(**</span>_<span style="font-weight: normal">end_of_range_exclusive</span>_<span style="font-style: normal">**)**</span><span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">This function is an iterable which can be used for , maong other things, to cause a for loop to execute a certain number of times.</span> </span><span style="font-style: normal"><span style="font-weight: normal">The sequence of numbers that it generates when used like this will start with 0 and end with the number that comes directly before</span> </span>_<span style="font-weight: normal">end_of_range_exclusive.</span>_<span style="font-style: normal"> <span style="font-weight: normal"></span> </span><span style="font-style: normal"><span style="font-weight: normal">(The term ‘exclusive’ is used in mathematics to specify that a number is not part of a set of numbers.)</span></span>
+
+        4.  _<span style="font-weight: normal">list_variable</span>_**<span style="font-style: normal">.append(</span>**_<span style="font-weight: normal">data_item</span>_**<span style="font-style: normal">)</span>**<span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">This built-in function is used to add</span> </span>_<span style="font-weight: normal">data_item</span>_<span style="font-style: normal"> <span style="font-weight: normal"></span> </span><span style="font-style: normal"><span style="font-weight: normal">to the end of a list specified by</span> </span>_<span style="font-weight: normal">list_variable.</span>_
+
+        5.  _<span style="font-weight: normal">list_variable</span>_<span style="font-style: normal"><span style="font-weight: normal">.</span></span><span style="font-style: normal">**p**</span><span style="font-style: normal">**op**</span><span style="font-style: normal">**(**</span>_<span style="font-weight: normal">[</span>__<span style="font-weight: normal">i</span>__<span style="font-weight: normal">ndex]</span>_<span style="font-style: normal">**)**</span><span style="font-style: normal"> <span style="font-weight: normal">–</span> </span><span style="font-style: normal"><span style="font-weight: normal">This built-in function is used to remove an element from</span> </span>_<span style="font-weight: normal">list_variable</span>_<span style="font-style: normal"> <span style="font-weight: normal"></span> </span><span style="font-style: normal"><span style="font-weight: normal">and return it</span></span><span style="font-style: normal"><span style="font-weight: normal">.</span> </span><span style="font-style: normal"><span style="font-weight: normal">If</span> </span>_<span style="font-weight: normal">i</span>__<span style="font-weight: normal">ndex</span>_<span style="font-style: normal"> <span style="font-weight: normal">is sent as an argument, then the element at that position is removed and returned. If no index is sent then the very last element is ‘popped’.</span></span>
+
+        6.  **del(**_<span style="font-weight: normal">variable_reference</span>_**)** <span style="font-weight: normal">– Deletes a variable or element(s) of a list.</span> <span style="font-weight: normal">The variable/elemnt to delete is specified as the</span> _<span style="font-weight: normal">variable_reference</span>_ <span style="font-weight: normal"></span> <span style="font-weight: normal">argument.</span>
